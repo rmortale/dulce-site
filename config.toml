@@ -1,0 +1,27 @@
+baseURL = "http://dulce.ch/"
+languageCode = "en-us"
+title = "AWS Certified Solutions Architect Associate"
+theme = "stip"
+[Author]
+    name = "Antonio Dolce"
+    bio = "Professional AWS Certified Solutions Architect and Developer Associate"
+
+[params]
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:dolce.antonio@gmail.com"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/rmortale/"
+
+
+[deployment]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "s3dulce"
+URL = "s3://dulce.ch?region=eu-west-1"

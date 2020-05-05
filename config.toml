@@ -13,9 +13,4 @@ theme = "stip"
         url = "https://github.com/rmortale/"
 
 
-[deployment]
 
-[[deployment.targets]]
-# An arbitrary name for this target.
-name = "s3dulce"
-URL = "s3://dulce.ch?region=eu-west-1"
